@@ -1,0 +1,187 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background:#ecf0f1;  
+}
+h1 {
+  width: 100%;
+  text-align:center;
+  padding-top: 10vh;
+  padding-bottom:0;
+  margin-bottom:0;
+  font-size: 42px;
+  font-weight:600;
+  letter-spacing:1px;
+  color: tomato;
+  -webkit-text-stroke: 1px crimson;
+}
+.container{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+ 
+  "AC C div times"
+  "seven eight nine minus"
+  "four five six plus"
+  "one two three negate"
+  "zero zero dot equal"
+  ;
+  -moz-box-shadow:inset 0 0 12px #FFF,
+	inset 0px 1px #E6E6E6, 0 1px 1px #323643,
+	inset 0px 1px #7b839b, 0 2px 5px rgba(0,0,0,.5);
+	-webkit-box-shadow:inset 0 0 12px #FFF,
+	inset 0px 1px #E6E6E6, 0 1px 1px #323643,
+	inset 0px 1px #7b839b, 0 2px 5px rgba(0,0,0,.5);
+	box-shadow:inset 0 0 12px #FFF,
+	inset 0px 1px #E6E6E6, 0 1px 1px #323643,
+	inset 0px 1px #7b839b, 0 2px 5px rgba(0,0,0,.5);
+
+}
+
+.padButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 20px;
+  -moz-box-shadow:inset 0 0 10px #666,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	-webkit-box-shadow:inset 0 0 10px #666,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	box-shadow:inset 0 0 10px #666,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+
+}
+.padButton:hover{
+  border: 1px solid white;
+  color: #ccc;
+}
+.dis{
+  grid-area: dis;
+  background-color: black;
+  text-align: right;
+  
+  /* font-size: 30px; */
+}
+.dis input{
+  width: 90%;
+  height: 5rem;
+  color: white;
+  padding: 5px 0px;
+  border:none;
+  background-color: black;
+  
+}
+.dis input[type='text']{
+  
+  width:93%;
+	height:54px;
+  background-color: black;
+  
+  border: none;
+  margin:20px 0px 0px 0px; 
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;  
+  font-size:25px;
+  font-weight:500;
+  letter-spacing:1px;
+  margin-right: 2rem;
+  font-size: 35px;
+
+}
+input::placeholder{
+  color: white;
+}
+
+.AC {
+  grid-area: AC;
+  -moz-box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	-webkit-box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+}
+.C {
+  grid-area: C;
+  -moz-box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	-webkit-box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+	box-shadow:inset 0 0 10px #F63,
+	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+}
+.div {
+  grid-area: div;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.times {
+  grid-area: times;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.minus {
+  grid-area: minus;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.plus {
+  grid-area: plus;
+}
+.negate {
+  grid-area: negate;
+}
+.zero {
+  grid-area: zero;
+}
+.dot {
+  grid-area: dot;
+}
+.equal {
+  grid-area: equal;
+}
+
+
+.dark-gray{
+  background-color: #333;
+}
+.tomato{
+  background-color: tomato;
+}
+.blue{
+  background-color: #5599ff;
+}
